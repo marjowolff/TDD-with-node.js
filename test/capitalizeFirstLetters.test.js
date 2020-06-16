@@ -2,7 +2,7 @@ const assert = require('assert')
 const capitalizeFirstLetters = require('../capitalizeFirstLetters')
 
 
-describe ('test Marjo', () => {
+describe ('test capitalizeFirstLetters', () => {
   it ("C'est une fonction d'un seul paramètre",() => {
     assert.strictEqual(typeof capitalizeFirstLetters, 'function')
     assert.strictEqual(capitalizeFirstLetters.length, 1);
